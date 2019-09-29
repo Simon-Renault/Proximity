@@ -1,0 +1,16 @@
+{
+    "name": "@srenault404/proximity",
+    "version": "1.0.3",
+    "description": "A library that help getting the distance between the pointer and a dom element. Helpful when doing some animation work. Please build plenty of javascript goodnes with this !",
+    "keywords": [
+        "dom",
+        "pointer",
+        "distance",
+        "proximity",
+        "box",
+        "animation"
+    ],
+    "author": "Simon Renault",
+    "license": "MIT",
+    "main": "index.js"
+}

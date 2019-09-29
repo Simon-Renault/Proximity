@@ -1,0 +1,35 @@
+{
+  "name": "@srenault404/Proximity",
+  "version": "1.0.0",
+  "description": "A library to help get the distance between dom elements and the pointer eficiently",
+  "keywords": [
+    "dom",
+    "pointer",
+    "distance",
+    "proximity",
+    "box"
+  ],
+  "author": "Simon Renault",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/main.js",
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "start": "parcel src/index.html",
+    "build": "rm -rf dist && mkdir dist && parcel build src/index.html",
+    "bundle": "microbundle --no-sourcemap",
+    "publish": "cd ./dist && npm  publish"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "microbundle": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
