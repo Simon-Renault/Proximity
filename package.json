@@ -20,7 +20,7 @@
     "start": "parcel src/index.html",
     "build": "rm -rf dist && mkdir dist && parcel build src/index.html",
     "bundle": "microbundle --no-sourcemap",
-    "publish": "cd ./dist && npm  publish"
+    "publish": "cp README.md ./dist && cd ./dist && npm  publish"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.5",
