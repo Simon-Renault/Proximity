@@ -17,8 +17,6 @@
   "source": "src/main.js",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
-    "start": "parcel src/index.html",
-    "build": "rm -rf dist && mkdir dist && parcel build src/index.html",
     "bundle": "microbundle --no-sourcemap",
     "publish": "cp README.md ./dist && cd ./dist && npm  publish"
   },

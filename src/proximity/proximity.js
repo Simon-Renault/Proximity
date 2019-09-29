@@ -14,10 +14,10 @@ class Proximity{
 
     //subscription primitives
     box = (...args) => new pModules.ProximityBox(...args)
-    radius = (...args) => new pModules.ProximityRadius(...args)
-    point = (...args) => new pModules.ProximityPoint(...args)
-    axisX = (...args) => new pModules.ProximityX(...args)
-    axisY = (...args) => new pModules.ProximityY(...args)
+    //radius = (...args) => new pModules.ProximityRadius(...args)
+    //point = (...args) => new pModules.ProximityPoint(...args)
+   // axisX = (...args) => new pModules.ProximityX(...args)
+    //axisY = (...args) => new pModules.ProximityY(...args)
 
     //subscription handler
     subscribe = (...sub) => this.subs.push(...sub)

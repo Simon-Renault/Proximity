@@ -5,8 +5,11 @@
     "description": "A library that help getting the distance between the pointer and a dom element. Helpful when doing some animation work. Please build plenty of javascript goodnes with this !",
     "keywords": [
         "dom",
+        "event",
         "pointer",
         "distance",
+        "progress",
+        "proximity feedback",
         "proximity",
         "box",
         "animation"
